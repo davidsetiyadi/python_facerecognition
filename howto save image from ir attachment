@@ -1,0 +1,3 @@
+http://127.0.4.1:7777/web/binary/image?model=ir.attachment&field=datas&id=1307
+replace with
+http://127.0.4.1:7777/web/binary/saveas?model=ir.attachment&field=datas&id=1307
