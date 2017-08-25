@@ -1,0 +1,7 @@
+sudo unxz wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz
+
+sudo tar -xvf wkhtmltox-linux-amd64_0.12.0-03c001d.tar
+
+cd /wkhtmltox/bin
+
+sudo mv wkhtmltopdf  /usr/bin/wkhtmltopdf

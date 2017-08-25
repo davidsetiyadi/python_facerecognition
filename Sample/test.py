@@ -6,12 +6,12 @@ def convert(image):
     f.close()
 
     string = base64.b64encode(data)
-    print (string,'david')
+    # print (string,'david')
     convert = base64.b64decode(string)
 
-    t = open("example1.png", "w+")
+    t = open("example1.jpg", "w+")
     t.write(convert)
     t.close()
 
 if __name__ == "__main__":
-    convert("imgpsh_fullsize.png")
+    convert("Obama.jpg")
